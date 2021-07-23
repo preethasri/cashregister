@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cash register</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <section class="section">
+        <h1>CASH REGISTER MANAGER</h1>
+        <p>enter the bill amount and cash given by the customer and know minimum number of notes to return</p>
+        <div>
+            <div class="label">Bill Amount</div>
+            <input id="billamt" type="number">
+
+            <button id="nxt-btn">Next</button>
+
+        </div>
+        <div class="cashGiveninput">
+            <div class="label">Cash Given</div>
+            <input id="cashGiven" type="number">
+
+            <button id="checkbtn">check</button>
+        </div>
+        <div class="errMessage"></div>
+        <div class="changeReturn">
+            <div class="label">Return changes:</div>
+            <div id="output">
+                <table>
+
+                    <tr>
+                        <th>No.of.notes</td>
+                            <td class="NoOfnotes"></td>
+                            <td class="NoOfnotes"></td>
+                            <td class="NoOfnotes"></td>
+                            <td class="NoOfnotes"></td>
+                            <td class="NoOfnotes"></td>
+                            <td class="NoOfnotes"></td>
+                            <td class="NoOfnotes"></td>
+                    </tr>
+                    <tr>
+                        <th>Note</td>
+                            <td>2000</td>
+                            <td>500</td>
+                            <td>100</td>
+                            <td>50</td>
+                            <td>20</td>
+                            <td>10</td>
+                            <td>1</td>
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+    </section>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
